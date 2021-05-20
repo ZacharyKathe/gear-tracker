@@ -25,7 +25,9 @@
     font-size: 2rem;
 }
 
-
+.location {
+    margin-bottom: 1.5rem;
+}
 .navbar a:hover {
     color: orange;
 }
@@ -119,16 +121,21 @@ p.card-text.gear-weight {
     padding:10px
 }
 
+.card-header {
+    text-align: center;
+    font-size: 2rem;
+}
+
 .card-body {
-    width: inherit;
     padding-left: 10px;
     padding-right: 10px;
-    /* height: 164px;
-    border-bottom-left-radius: 27px;
-    border-bottom-right-radius: 27px; */
 }
 p.card-text {
-    height: 5rem;
+
+}
+
+.trip-details {
+    width: 100%;
 }
 .card.text-center {
     height: fit-content;

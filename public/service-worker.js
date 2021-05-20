@@ -12,6 +12,7 @@ const DATA_CACHE_NAME = "gearwise-data-cache-v1";
 
 var urlsToCache = [
   "/",
+  "db.js",
   "/js/chart.js",
   "/js/script.js",
   "/js/dashscript.js",

@@ -93,7 +93,7 @@ const addTipText = () => {
   const tripText = document.createElement('div')
   tripText.classList.add('tip-text');
 
-  const hasChild = tripLoadout.querySelector("#generalName") != null;
+  const hasChild = tripLoadout.hasChildNodes();
 
   tripText.textContent = "Click on an item in your Gear Closet to add to trip!";
   console.log(hasChild)

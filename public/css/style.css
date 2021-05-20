@@ -8,6 +8,24 @@
     font-family: arial;
 }
 
+.motto {
+    text-align: center;
+    color: #c57a3c;
+    font-size: 2rem;
+}
+
+.main-title {
+    padding: 1rem;
+    margin: 0rem 10rem;
+}
+.accordion-button {
+    font-size: .8rem;
+    padding: .6rem 1rem;
+}
+.motto {
+    font-style: italic;
+}
+
 #mainTrips{
     display: flex;
     flex-direction: column;
@@ -37,9 +55,37 @@ aside {
 
 
 .switchColor{
-    font-size: 3rem;
-    color: #c57a3c;
+    will-change: auto;
+    display: block;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("https://products.ls.graphics/mesh-gradients/images/14.-Prim_1.jpg");
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: bg 8s cubic-bezier(0.77, 0, 0.175, 1) 2s infinite;
 
+}
+
+@keyframes bg {
+    0% {
+      background-position: 5% 5%;
+    }
+    25% {
+      background-position: 5% 95%;
+      background-size: 250%;
+    }
+    50% {
+      background-position: 95% 95%;
+      background-size: 150%;
+    }
+    75% {
+      background-position: 5% 95%;
+    }
+    100% {
+      background-position: 5% 5%;
+    }
 }
 
 .signup {
@@ -110,7 +156,8 @@ button.indexBtn.loginbtn.btn {
 }
 
 .account-text {
-    margin: 1rem 2rem;
+    margin: .5rem 2rem;
+
 }
 
 .form-control {

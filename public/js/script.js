@@ -22,7 +22,6 @@ if (document.querySelector("#loginForm")) {
             email: document.querySelector("#loginEmail").value,
             password: document.querySelector("#loginPassword").value,
         }
-        console.log(fetchObj);
         fetch("/portal/login", {
             method: "POST",
             body: JSON.stringify(fetchObj),
@@ -58,7 +57,6 @@ if (document.querySelector("#signupForm")) {
                 "Content-Type": "application/json"
             }
         }).then(res => {
-            console.log(res);
             if (res.ok) {
                 // console.log("signed up successfully!")
                 location.replace("/dashboard")

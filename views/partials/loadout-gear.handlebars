@@ -1,0 +1,24 @@
+{{!-- <div class="tripitem" data-id={{id}}>
+  <h4 class="trip-item-detail" id="generalName">{{general_name}}</h4>
+  <div class="trip-item-name-descr">
+    <p class="trip-item-detail" id="productName">{{product_name}}</p>
+  </div>
+  <p class="trip-item-detail" id="weightoz">{{weight_oz}} oz</p>
+  <button class="removebtn mybtn" data-id={{id}}>Remove</button>
+  <p class="trip-item-detail" id="itemdescription">{{description}}</p>
+</div> --}}
+<div class="accordion accordian-fl" id="accordionExample">
+  <div class="accordion-item" data-id={{id}}>
+    <h2 class="accordion-header" id={{id}}>
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}">
+        {{product_name}} ({{general_name}})
+      </button>
+    </h2>
+    <div id="collapse{{id}}" class="accordion-collapse collapse" aria-labelledby="heading{{id}}" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>{{weight_oz}} oz</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <button class="removebtn mybtn" data-id={{id}}>Remove</button>
+      </div>
+    </div>
+  </div>
+</div>

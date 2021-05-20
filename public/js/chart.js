@@ -24,9 +24,10 @@ if (!currTripId){
 
         let gearTotal = sum(values).toFixed(1)
         console.log("My gear total", gearTotal)
+        const poundConv = (gearTotal / 16).toFixed(2)
         
         let packTotal = document.getElementById('packTotal')
-        packTotal.innerHTML = `Gear Total = ${gearTotal} oz`
+        packTotal.innerHTML = `Gear Total = ${poundConv} lbs`
         console.log("weight of items", values)
         
 
