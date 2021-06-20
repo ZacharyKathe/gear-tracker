@@ -12,6 +12,9 @@ const checkURL = () => {
     document.querySelector('#tripform').classList.add('hide');
     document.querySelector('#userinput').style.width = '100%';
     document.querySelector('.second-box').style.width = '150%';
+    document.querySelector('#edittag').textContent = "+ to Trip"
+    document.querySelector('#edittag').style.color = "green"
+    document.querySelector('.gearitem').style.border = "green"
   } else {
     document.querySelector('.currentTripBox').classList.add('hide');
     document.querySelector('.tripLoadout').classList.add('hide');
