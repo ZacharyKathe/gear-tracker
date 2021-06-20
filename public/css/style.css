@@ -22,6 +22,15 @@
     font-size: .8rem;
     padding: .6rem 1rem;
 }
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    padding-bottom: .5rem;
+    border-bottom: 1px dashed black;
+}
+
 .motto {
     font-style: italic;
 }
@@ -235,6 +244,20 @@ button.indexBtn.loginbtn.btn {
     cursor: pointer;
     transform: translateY(0) scale(1.1);
     transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid yellow;
+}
+
+#edittag {
+    display: none;
+    color: rgb(216, 216, 4);
+}
+
+.gearitem:hover #edittag {
+    display: flex;
+}
+
+.gearitem:hover #genname {
+    display: none;
 }
 
 #trip-name{
