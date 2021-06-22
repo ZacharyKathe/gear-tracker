@@ -252,7 +252,24 @@ button.indexBtn.loginbtn.btn {
     color: rgb(216, 216, 4);
 }
 
+.towhite {
+    color: white;
+}
+
+#addtag {
+    display: none;
+    color: rgb(11, 133, 0);
+}
+
 .gearitem:hover #edittag {
+    display: flex;
+}
+
+.gearitem:hover #genname {
+    display: none;
+}
+
+.gearitem:hover #addtag {
     display: flex;
 }
 
