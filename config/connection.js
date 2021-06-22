@@ -14,6 +14,7 @@ if (process.env.JAWSDB_URL) {
       port: 3306
     }
   );
+  // throw new Error('couldnt establish sequelize connection')
 }
 
 module.exports = sequelize;
