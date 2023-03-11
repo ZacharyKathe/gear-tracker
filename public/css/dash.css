@@ -62,7 +62,7 @@
     background-image: url(../images/dashbackground.jpg);
     display: flex;
     width: 100%;
-    height: 100%;
+
 }
 
 .button {
@@ -232,7 +232,7 @@ input {
 #trip-inputs {
     padding: 1rem;
     border: 1px solid black;
-    background-color: #58752B;
+    background-color: #304312;
 }
 
 .input-field, .input-field2 {
