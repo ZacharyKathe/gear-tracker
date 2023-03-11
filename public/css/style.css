@@ -64,10 +64,7 @@ aside {
 
 
 .switchColor{
-    will-change: auto;
-    display: block;
-    text-align: center;
-    background-repeat: no-repeat;
+    
     background-image: url("https://products.ls.graphics/mesh-gradients/images/14.-Prim_1.jpg");
     background-size: 200%;
     background-clip: text;
@@ -140,9 +137,9 @@ button.indexBtn.loginbtn.btn {
 }
 
 .image{
-    background-image: url("/images/Mountian_cover_opacity_lower.JPG");
+    background-image: url("/images/MountianRiver.gif");
     background-size: cover;
-    height: inherit;
+    height: 100%;
 }
 
 .greyHeading{
@@ -294,6 +291,9 @@ button.indexBtn.loginbtn.btn {
 .new-user {
     font-size: larger;
     text-align: center;
+}
+.animate__animated{
+    color: white;
 }
 
 button.indexBtn.sign-up.btn {
