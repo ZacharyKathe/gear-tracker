@@ -1,11 +1,4 @@
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker
-            .register('../service-worker.js')
-            .then((reg) => console.log('Service worker registered.', reg))
-            .catch((err) => console.log('Service worker error:', err))
-    });
-}
+//}
 // if ('serviceWorker' in navigator) {
 //     window.addEventListener('load', () => {
 //         navigator.serviceWorker
@@ -31,7 +24,7 @@ if (document.querySelector("#loginForm")) {
         }).then(res => {
             console.log(res);
             if (res.ok) {
-                // alert("logged in successfully!")
+                 alert("logged in successfully!")
                 location.replace("/dashboard")
             } else {
                 alert("Account information not found!")
