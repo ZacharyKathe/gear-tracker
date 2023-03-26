@@ -8,6 +8,7 @@
     "start": "node server.js",
     "watch": "nodemon sever.js",
     "seed": "node seeds/seed.js"
+    
   },
   "repository": {
     "type": "git",
